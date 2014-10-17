@@ -13,7 +13,16 @@
 		690592D619F1AF590033991E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690592D419F1AF590033991E /* Main.storyboard */; };
 		690592D819F1AF590033991E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690592D719F1AF590033991E /* Images.xcassets */; };
 		690592DB19F1AF590033991E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690592D919F1AF590033991E /* LaunchScreen.xib */; };
-		690592E719F1AF590033991E /* CarouselViewSamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 690592E619F1AF590033991E /* CarouselViewSamplesTests.m */; };
+		690592FA19F1AFB10033991E /* SROBoundedCarouselStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690592F219F1AFB10033991E /* SROBoundedCarouselStrategy.m */; };
+		690592FB19F1AFB10033991E /* SROCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690592F519F1AFB10033991E /* SROCarouselView.m */; };
+		690592FC19F1AFB10033991E /* SROCarouselViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 690592F719F1AFB10033991E /* SROCarouselViewCell.m */; };
+		690592FD19F1AFB10033991E /* SROInfiniteCarouselStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690592F919F1AFB10033991E /* SROInfiniteCarouselStrategy.m */; };
+		6905930219F1AFEE0033991E /* SROBoundedCarouselStrategyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 690592FF19F1AFEE0033991E /* SROBoundedCarouselStrategyTest.m */; };
+		6905930319F1AFEE0033991E /* SROCarouselViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6905930019F1AFEE0033991E /* SROCarouselViewTest.m */; };
+		6905930419F1AFEE0033991E /* SROInfiniteCarouselStrategyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6905930119F1AFEE0033991E /* SROInfiniteCarouselStrategyTest.m */; };
+		69CF734319F1B0E800B149C7 /* UIView+CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CF734219F1B0E800B149C7 /* UIView+CustomLayout.m */; };
+		69CF734519F1B12600B149C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF734419F1B12600B149C7 /* CoreGraphics.framework */; };
+		69CF734819F1B2D900B149C7 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CF734719F1B2D900B149C7 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,22 @@
 		690592DA19F1AF590033991E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		690592E019F1AF590033991E /* CarouselViewSamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselViewSamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		690592E519F1AF590033991E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		690592E619F1AF590033991E /* CarouselViewSamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselViewSamplesTests.m; sourceTree = "<group>"; };
+		690592F119F1AFB10033991E /* SROBoundedCarouselStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SROBoundedCarouselStrategy.h; sourceTree = "<group>"; };
+		690592F219F1AFB10033991E /* SROBoundedCarouselStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROBoundedCarouselStrategy.m; sourceTree = "<group>"; };
+		690592F319F1AFB10033991E /* SROCarouselStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SROCarouselStrategy.h; sourceTree = "<group>"; };
+		690592F419F1AFB10033991E /* SROCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SROCarouselView.h; sourceTree = "<group>"; };
+		690592F519F1AFB10033991E /* SROCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROCarouselView.m; sourceTree = "<group>"; };
+		690592F619F1AFB10033991E /* SROCarouselViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SROCarouselViewCell.h; sourceTree = "<group>"; };
+		690592F719F1AFB10033991E /* SROCarouselViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROCarouselViewCell.m; sourceTree = "<group>"; };
+		690592F819F1AFB10033991E /* SROInfiniteCarouselStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SROInfiniteCarouselStrategy.h; sourceTree = "<group>"; };
+		690592F919F1AFB10033991E /* SROInfiniteCarouselStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROInfiniteCarouselStrategy.m; sourceTree = "<group>"; };
+		690592FF19F1AFEE0033991E /* SROBoundedCarouselStrategyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROBoundedCarouselStrategyTest.m; sourceTree = "<group>"; };
+		6905930019F1AFEE0033991E /* SROCarouselViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROCarouselViewTest.m; sourceTree = "<group>"; };
+		6905930119F1AFEE0033991E /* SROInfiniteCarouselStrategyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SROInfiniteCarouselStrategyTest.m; sourceTree = "<group>"; };
+		69CF734119F1B0E800B149C7 /* UIView+CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomLayout.h"; sourceTree = "<group>"; };
+		69CF734219F1B0E800B149C7 /* UIView+CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomLayout.m"; sourceTree = "<group>"; };
+		69CF734419F1B12600B149C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69CF734719F1B2D900B149C7 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libraries/libOCMock.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CF734519F1B12600B149C7 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CF734819F1B2D900B149C7 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +92,7 @@
 				690592C919F1AF590033991E /* CarouselViewSamples */,
 				690592E319F1AF590033991E /* CarouselViewSamplesTests */,
 				690592C819F1AF590033991E /* Products */,
+				69CF734619F1B23400B149C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +108,8 @@
 		690592C919F1AF590033991E /* CarouselViewSamples */ = {
 			isa = PBXGroup;
 			children = (
+				69CF734019F1B0E800B149C7 /* Categories */,
+				690592F019F1AFB10033991E /* Carousel */,
 				690592CE19F1AF590033991E /* AppDelegate.h */,
 				690592CF19F1AF590033991E /* AppDelegate.m */,
 				690592D119F1AF590033991E /* ViewController.h */,
@@ -105,7 +134,7 @@
 		690592E319F1AF590033991E /* CarouselViewSamplesTests */ = {
 			isa = PBXGroup;
 			children = (
-				690592E619F1AF590033991E /* CarouselViewSamplesTests.m */,
+				690592FE19F1AFEE0033991E /* Carousel */,
 				690592E419F1AF590033991E /* Supporting Files */,
 			);
 			path = CarouselViewSamplesTests;
@@ -117,6 +146,50 @@
 				690592E519F1AF590033991E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		690592F019F1AFB10033991E /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				690592F119F1AFB10033991E /* SROBoundedCarouselStrategy.h */,
+				690592F219F1AFB10033991E /* SROBoundedCarouselStrategy.m */,
+				690592F319F1AFB10033991E /* SROCarouselStrategy.h */,
+				690592F419F1AFB10033991E /* SROCarouselView.h */,
+				690592F519F1AFB10033991E /* SROCarouselView.m */,
+				690592F619F1AFB10033991E /* SROCarouselViewCell.h */,
+				690592F719F1AFB10033991E /* SROCarouselViewCell.m */,
+				690592F819F1AFB10033991E /* SROInfiniteCarouselStrategy.h */,
+				690592F919F1AFB10033991E /* SROInfiniteCarouselStrategy.m */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		690592FE19F1AFEE0033991E /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				690592FF19F1AFEE0033991E /* SROBoundedCarouselStrategyTest.m */,
+				6905930019F1AFEE0033991E /* SROCarouselViewTest.m */,
+				6905930119F1AFEE0033991E /* SROInfiniteCarouselStrategyTest.m */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		69CF734019F1B0E800B149C7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				69CF734119F1B0E800B149C7 /* UIView+CustomLayout.h */,
+				69CF734219F1B0E800B149C7 /* UIView+CustomLayout.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		69CF734619F1B23400B149C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CF734719F1B2D900B149C7 /* libOCMock.a */,
+				69CF734419F1B12600B149C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				690592D319F1AF590033991E /* ViewController.m in Sources */,
+				690592FD19F1AFB10033991E /* SROInfiniteCarouselStrategy.m in Sources */,
 				690592D019F1AF590033991E /* AppDelegate.m in Sources */,
+				690592FB19F1AFB10033991E /* SROCarouselView.m in Sources */,
 				690592CD19F1AF590033991E /* main.m in Sources */,
+				69CF734319F1B0E800B149C7 /* UIView+CustomLayout.m in Sources */,
+				690592FA19F1AFB10033991E /* SROBoundedCarouselStrategy.m in Sources */,
+				690592FC19F1AFB10033991E /* SROCarouselViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690592E719F1AF590033991E /* CarouselViewSamplesTests.m in Sources */,
+				6905930219F1AFEE0033991E /* SROBoundedCarouselStrategyTest.m in Sources */,
+				6905930319F1AFEE0033991E /* SROCarouselViewTest.m in Sources */,
+				6905930419F1AFEE0033991E /* SROInfiniteCarouselStrategyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +453,26 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Libraries/Headers",
+				);
 				INFOPLIST_FILE = CarouselViewSamplesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselViewSamples.app/CarouselViewSamples";
 			};
@@ -388,8 +486,26 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Libraries/Headers",
+				);
 				INFOPLIST_FILE = CarouselViewSamplesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselViewSamples.app/CarouselViewSamples";
 			};
@@ -414,6 +530,7 @@
 				690592EC19F1AF590033991E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		690592ED19F1AF590033991E /* Build configuration list for PBXNativeTarget "CarouselViewSamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +539,7 @@
 				690592EF19F1AF590033991E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
