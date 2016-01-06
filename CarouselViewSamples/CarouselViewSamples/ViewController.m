@@ -1,12 +1,5 @@
-//
-//  ViewController.m
-//  CarouselViewSamples
-//
-//  Created by Sylvain Rousseau on 17/10/14.
-//  Copyright (c) 2014 DEVSYL. All rights reserved.
-//
-
 #import "ViewController.h"
+#import "CarouselSampleView.h"
 
 @interface ViewController ()
 
@@ -16,7 +9,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CarouselSampleView *carouselSampleView = [[CarouselSampleView alloc] initWithFrame: self.view.frame];
+    [self.view addSubview: carouselSampleView];
 }
 
 - (void)didReceiveMemoryWarning {
